@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.order_position</OriginalElement>
+  <nodes>
+    <node x="0.0" y="426.0">31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.pharmacy_warehouse</node>
+    <node x="130.49999999999997" y="0.0">31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.providers</node>
+    <node x="344.99999999999994" y="207.0">31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.pharmacy_order</node>
+    <node x="119.49999999999997" y="219.0">31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.product</node>
+    <node x="376.49999999999994" y="0.0">31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.pharmacy</node>
+    <node x="322.0" y="414.0">31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.order_position</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.order_position" target="31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.pharmacy_order" relationship="REFERENCES">
+      <point x="69.5" y="-78.5" />
+      <point x="530.5" y="389.0" />
+      <point x="465.99999999999994" y="389.0" />
+      <point x="0.0" y="78.5" />
+    </edge>
+    <edge source="31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.pharmacy_warehouse" target="31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.product" relationship="REFERENCES">
+      <point x="0.0" y="-66.5" />
+      <point x="151.0" y="389.0" />
+      <point x="219.99999999999997" y="389.0" />
+      <point x="0.0" y="66.5" />
+    </edge>
+    <edge source="31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.pharmacy_order" target="31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.pharmacy" relationship="REFERENCES">
+      <point x="0.0" y="-78.5" />
+      <point x="0.0" y="78.5" />
+    </edge>
+    <edge source="31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.order_position" target="31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.product" relationship="REFERENCES">
+      <point x="-69.5" y="-78.5" />
+      <point x="391.5" y="389.0" />
+      <point x="219.99999999999997" y="389.0" />
+      <point x="0.0" y="66.5" />
+    </edge>
+    <edge source="31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.product" target="31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.providers" relationship="REFERENCES">
+      <point x="0.0" y="-66.5" />
+      <point x="0.0" y="78.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5194585448392555" showDependencies="false" x="326.0" y="375.01628664495115" />
+  <SelectedNodes>
+    <node>31717080-667c-49f4-bff4-4bad372363a6.TABLE:warehouse.order_position</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
